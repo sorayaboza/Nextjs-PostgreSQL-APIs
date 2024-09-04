@@ -49,21 +49,21 @@ export default function Home() {
   // Function to handle item deletion
   const handleDelete = async (id) => {
     try {
+      // Send DELETE request to API with item ID
       const res = await fetch('/api/my_table', {
         method: 'DELETE',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ id }),
       });
-
-      if (res.ok) {
-        fetchData(); // Refresh the data after deleting an item
-      } else {
-        console.error('Failed to delete item');
-      }
+  
+      // Refresh data if deletion was successful
+      if (res.ok) fetchData();
     } catch (err) {
-      console.error('Error deleting item:', err);
+      // Log error if something goes wrong
+      console.error('Delete error:', err);
     }
   };
+  
 
   return (
     <main className="flex min-h-screen flex-col items-center p-24">

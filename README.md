@@ -1,5 +1,5 @@
 # Nextjs-PostgreSQL-APIs
-DOCUMENTATION: https://docs.google.com/document/d/1OhbD-u22NT2IBYH49UhsAx-CwUYKfLt3wjHiVsytMR0/edit?usp=sharing 
+[DOCUMENTATION](https://docs.google.com/document/d/1OhbD-u22NT2IBYH49UhsAx-CwUYKfLt3wjHiVsytMR0/edit?usp=sharing)
 
 ## Steps for Running
 1. In VS Code, open your terminal.

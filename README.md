@@ -4,10 +4,10 @@ DOCUMENTATION: https://docs.google.com/document/d/1OhbD-u22NT2IBYH49UhsAx-CwUYKf
 ## Steps for Running
 1. In VS Code, open your terminal.
 2. Enter the following commands:
-```git clone https://github.com/sorayaboza/Nextjs-PostgreSQL-APIs.git```
-```cd .\Nextjs-PostgreSQL-APIs\```
-```npm i```
-```psql -U [your postgres username] -f src/app/data/database.sql```
+* ```git clone https://github.com/sorayaboza/Nextjs-PostgreSQL-APIs.git```
+* ```cd .\Nextjs-PostgreSQL-APIs\```
+* ```npm i```
+* ```psql -U [your postgres username] -f src/app/data/database.sql```
 
 3. Under the main folder (NextJs-PostgreSQL-APIs), add a ```.env``` file.
 4. In the ```.env``` file, add the following content:

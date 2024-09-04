@@ -18,3 +18,5 @@ VALUES
     ('Item 1 description', 'Category A'),
     ('Item 2 description', 'Category B'),
     ('Item 3 description', 'Category C');
+
+-- DROP DATABASE my_database
